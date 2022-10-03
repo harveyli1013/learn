@@ -2,7 +2,7 @@
  * @Author: harvey
  * @Date: 2022-10-03 22:41:25
  * @LastEditors: harvey
- * @LastEditTime: 2022-10-03 22:50:50
+ * @LastEditTime: 2022-10-03 23:27:35
  * @FilePath: \learn\learnC\01_hello_c\README.md
  * @Description:gcc本地配置
 -->
@@ -20,3 +20,7 @@
 ## c文件编译
 
 `gcc -o hello.exe hello.c` 
+
+## c文件运行
+
+`./hello.exe`
