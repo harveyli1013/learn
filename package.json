@@ -1,0 +1,29 @@
+{
+  "name": "learn",
+  "version": "1.0.1",
+  "description": "learn CS",
+  "scripts": {
+    "commit": "git-cz",
+    "changelog": "conventional-changelog -p learn -i CHANGELOG.md -s && git add CHANGELOG.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harveyli1013/learn.git"
+  },
+  "author": "harvey_li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harveyli1013/learn/issues"
+  },
+  "homepage": "https://github.com/harveyli1013/learn#readme",
+  "devDependencies": {
+    "commitizen": "^4.2.5",
+    "conventional-changelog-cli": "^2.2.2",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
